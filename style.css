@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.image-container, .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav-container {
+    background-color: rgba(255, 228, 196, 0.305);
+
+}
+
+.nav-link {
+    margin-bottom: 12px;
+}
+
+.about, .text-container, .container-fluid {
+    width: 100%;
+}
+
+.container-fluid {
+    padding-top: 100px;
+}
+
+.code-logo {
+    width: 40px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.img-aboutme {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+    size: 50%;
+    margin-left: -15px;
+}
+
+
+ul, p {
+    width: auto;
+    margin: 10px 20% 10px 20%;
+}
+
+input, textarea, #send-btn {
+    margin: 10px auto 10px auto;
+    display: block;
+    width: 60%;
+}
+
+
+footer, .email-container, .cv-container {
+    text-align: center;
+    padding-top: 30px;
+    height: 90px;
+}
+
+
+.send-open {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.send-open:hover {
+    color:white;
+    background-color: black;
+    border-width: 10px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .about {
+        display: flex;
+        justify-content: center;
+    }
+}
